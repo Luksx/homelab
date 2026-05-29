@@ -24,27 +24,10 @@ Proč zrovna Void linux jako client? Běžím na nich už nějakou dobu a jejich
 
 ### Mapa VM
 
-```mermaid
-graph TD;
-    Host-->VMware;
-    VMware-->OPNsense;
-    VMware-->Debian;
-    VMware-->Void;
-
-```
+![Základní nastavení VMware](pictures/vm-map.png)
 
 ### Mapa sítě
 
-```mermaid
-graph TD;
-
-
-NAT-->OPNsense
-Host-->OPNsense;
-OPNsense-->Debian;
-OPNsense-->Void;
-```
-
 OPNsense funguje jako firewall a je zároveň tedy komponent, který rozděluje lokální síť (LAN). Na LAN hostuje DHCP server. 
 
-
+![net-map.svg](C:\Users\autak\Documents\Homelab%20portfolio\homelab\notes\pictures\net-map.svg)
