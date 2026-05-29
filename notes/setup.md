@@ -22,14 +22,8 @@ Proč zrovna Void linux jako client? Běžím na nich už nějakou dobu a jejich
 
 > Chvíli jsem tedy bojoval s open-vm-tools na voidu, ale nakonec se vše podařilo
 
-### Mapa VM
-
-![Základní nastavení VMware](pictures/vm-map.png)
-
 ### Mapa sítě
 
 OPNsense funguje jako firewall a je zároveň tedy komponent, který rozděluje lokální síť (LAN). Na LAN hostuje DHCP server. 
 
 ![net-map.png](pictures/net-map.png)
-
-
