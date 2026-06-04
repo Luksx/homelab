@@ -1,4 +1,4 @@
-# Domácí Lab
+# Domácí Lab  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Blog](blog/blog.md)
 
 Jednoho dne jsem se rozhodl, že si udělám vlastní domácí laborku. Bude se skládat z několika virtualizovaných strojů, na kterých poběží dnes často používané služby.
 

@@ -1,6 +1,6 @@
 # Nastavení VMware
 
-Rozhodl jsem se že simulace budu provádět v VMware virutalizačním softwaru. I přes to že se jedná o virtualizaci nad windows, podpora VMware s linuxovými systémi se mi zamlouvá víc než Hyper-V.
+Rozhodl jsem se simulace provádět v VMware virutalizačním softwaru. I přes to že se jedná o virtualizaci nad windows, alternativní Hyper-V má mnohem slabší podporu pro linuxové systéme než VMware. Takže VMware byl jasná cesta.
 
 Nastavil jsem 3 vmware sítě:
 
@@ -26,4 +26,7 @@ Proč zrovna Void linux jako client? Běžím na nich už nějakou dobu a jejich
 
 OPNsense funguje jako firewall a je zároveň tedy komponent, který rozděluje lokální síť (LAN). Na LAN hostuje DHCP server. 
 
-![net-map.png](pictures/net-map.png)
+![net-map.png](pictures/net-map.svg)
+
+Debian server má na DHCP serveru nastavenou statickou IP adresu. Taky je serveru přiřazen hostname *debian.lab.internal*.
+
