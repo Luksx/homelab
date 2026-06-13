@@ -4,3 +4,4 @@ Jednoho dne jsem se rozhodl, že si udělám vlastní domácí laborku. Bude se 
 Tahle laboratoř by měla fungovat jako projekt, který bych chtěl vést dlouhodobě.
 
 1. [Základní nastavení VMware](notes/setup.md)
+2. [Nastavení Debian serveru](notes/debian.md)
